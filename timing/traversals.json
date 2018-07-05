@@ -1,0 +1,2639 @@
+{
+    "Syracuse University": {
+        "edges": [
+            {
+                "source": "http://eng-cs.syr.edu", 
+                "target": "http://eng-cs.syr.edu/for-faculty-staff/"
+            }, 
+            {
+                "source": "http://eng-cs.syr.edu/for-faculty-staff/", 
+                "target": "http://eng-cs.syr.edu/directory/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Brown University": {
+        "edges": [
+            {
+                "source": "http://cs.brown.edu/", 
+                "target": "http://cs.brown.edu/people/directory/"
+            }, 
+            {
+                "source": "http://cs.brown.edu/people/directory/", 
+                "target": "http://cs.brown.edu/people/faculty/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Michigan Technological University": {
+        "edges": [
+            {
+                "source": "http://www.mtu.edu/cs/", 
+                "target": "http://www.mtu.edu/faculty-staff/"
+            }, 
+            {
+                "source": "http://www.mtu.edu/faculty-staff/", 
+                "target": "http://www.mtu.edu/cs/department/faculty-staff/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Rice University": {
+        "edges": [
+            {
+                "source": "http://www.cs.rice.edu/", 
+                "target": "http://www.cs.rice.edu/people/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Connecticut": {
+        "edges": [
+            {
+                "source": "http://www.cse.uconn.edu", 
+                "target": "http://www.cse.uconn.edu/people/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Florida": {
+        "edges": [
+            {
+                "source": "http://www.cise.ufl.edu/", 
+                "target": "http://www.cise.ufl.edu/people/staff/admin"
+            }, 
+            {
+                "source": "http://www.cise.ufl.edu/people/staff/admin", 
+                "target": "http://www.cise.ufl.edu/people/staff"
+            }, 
+            {
+                "source": "http://www.cise.ufl.edu/people/staff", 
+                "target": "http://www.cise.ufl.edu/people/staff/system"
+            }, 
+            {
+                "source": "http://www.cise.ufl.edu/people/staff/system", 
+                "target": "http://www.cise.ufl.edu/people/faculty"
+            }
+        ], 
+        "value": 4
+    }, 
+    "Washington State University": {
+        "edges": [
+            {
+                "source": "http://school.eecs.wsu.edu/", 
+                "target": "https://school.eecs.wsu.edu/people/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Waterloo": {
+        "edges": [
+            {
+                "source": "https://cs.uwaterloo.ca/", 
+                "target": "https://cs.uwaterloo.ca/about/people"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of California, Los Angeles": {
+        "edges": [
+            {
+                "source": "http://www.cs.ucla.edu/", 
+                "target": "http://www.cs.ucla.edu/faculty-recruitment/"
+            }, 
+            {
+                "source": "http://www.cs.ucla.edu/faculty-recruitment/", 
+                "target": "http://www.cs.ucla.edu/emeriti-faculty/"
+            }, 
+            {
+                "source": "http://www.cs.ucla.edu/emeriti-faculty/", 
+                "target": "http://www.cs.ucla.edu/adjunct-faculty/"
+            }, 
+            {
+                "source": "http://www.cs.ucla.edu/adjunct-faculty/", 
+                "target": "http://www.cs.ucla.edu/faculty/"
+            }
+        ], 
+        "value": 4
+    }, 
+    "University of Regina": {
+        "edges": [
+            {
+                "source": "http://www.cs.uregina.ca/", 
+                "target": "http://www.cs.uregina.ca/People/faculty.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Pace University": {
+        "edges": [
+            {
+                "source": "http://www.pace.edu/seidenberg/faculty/faculty-list", 
+                "target": "http://www.pace.edu/seidenberg/faculty/faculty-list"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Memphis": {
+        "edges": [
+            {
+                "source": "http://www.memphis.edu/cs/", 
+                "target": "http://www.memphis.edu/cs/people/index.php"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of California, Irvine": {
+        "edges": [
+            {
+                "source": "http://www.cs.uci.edu/", 
+                "target": "http://www.cs.uci.edu/professor-of-teaching-in-computer-science/"
+            }, 
+            {
+                "source": "http://www.cs.uci.edu/professor-of-teaching-in-computer-science/", 
+                "target": "http://www.cs.uci.edu/faculty/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Nebraska, Lincoln": {
+        "edges": [
+            {
+                "source": "http://www.cse.unl.edu/", 
+                "target": "http://cse.unl.edu/faculty-staff"
+            }, 
+            {
+                "source": "http://cse.unl.edu/faculty-staff", 
+                "target": "http://cse.unl.edu/directory"
+            }
+        ], 
+        "value": 2
+    }, 
+    "New Mexico Tech": {
+        "edges": [
+            {
+                "source": "http://www.cs.nmt.edu/", 
+                "target": "https://www.cs.nmt.edu/people/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "North Carolina State University": {
+        "edges": [
+            {
+                "source": "https://www.csc.ncsu.edu/", 
+                "target": "https://www.csc.ncsu.edu/department/faculty_staff.php"
+            }, 
+            {
+                "source": "https://www.csc.ncsu.edu/department/faculty_staff.php", 
+                "target": "https://www.csc.ncsu.edu/directories/staff.php"
+            }, 
+            {
+                "source": "https://www.csc.ncsu.edu/directories/staff.php", 
+                "target": "https://www.csc.ncsu.edu/directories/faculty.php"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Case Western Reserve University": {
+        "edges": [
+            {
+                "source": "http://engineering.case.edu/eecs/", 
+                "target": "http://engineering.case.edu/eecs/faculty-staff"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Idaho": {
+        "edges": [
+            {
+                "source": "http://www.uidaho.edu/engr/departments/cs", 
+                "target": "http://www.uidaho.edu/engr/departments/cs/our-people/staff.aspx"
+            }, 
+            {
+                "source": "http://www.uidaho.edu/engr/departments/cs/our-people/staff.aspx", 
+                "target": "http://www.uidaho.edu/engr/departments/cs/our-people/staff/arleen-furedy.aspx"
+            }, 
+            {
+                "source": "http://www.uidaho.edu/engr/departments/cs/our-people/staff/arleen-furedy.aspx", 
+                "target": "http://www.uidaho.edu/engr/departments/cs/our-people.aspx"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Arizona State University": {
+        "edges": [
+            {
+                "source": "http://engineering.asu.edu/cidse/", 
+                "target": "http://cidse.engineering.asu.edu/facultyandresearch/directory/lecturers-and-research-faculty/"
+            }, 
+            {
+                "source": "http://cidse.engineering.asu.edu/facultyandresearch/directory/lecturers-and-research-faculty/", 
+                "target": "http://cidse.engineering.asu.edu/facultyandresearch/directory/faculty/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Iowa": {
+        "edges": [
+            {
+                "source": "https://cs.uiowa.edu/", 
+                "target": "https://cs.uiowa.edu/people"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of South Florida": {
+        "edges": [
+            {
+                "source": "http://www.usf.edu/engineering/cse/", 
+                "target": "http://www.usf.edu/about-usf/about-this-site.aspx"
+            }, 
+            {
+                "source": "http://www.usf.edu/about-usf/about-this-site.aspx", 
+                "target": "http://directory.usf.edu/"
+            }, 
+            {
+                "source": "http://directory.usf.edu/", 
+                "target": "http://www.usf.edu/engineering/cse/people/index.aspx"
+            }
+        ], 
+        "value": 3
+    }, 
+    "University of Texas, Arlington": {
+        "edges": [
+            {
+                "source": "https://cse.uta.edu/", 
+                "target": "https://cse.uta.edu/staff-directory.php"
+            }, 
+            {
+                "source": "https://cse.uta.edu/staff-directory.php", 
+                "target": "https://cse.uta.edu/faculty-directory.php"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Pittsburgh": {
+        "edges": [
+            {
+                "source": "http://www.cs.pitt.edu/", 
+                "target": "http://www.cs.pitt.edu/people/faculty/tenure_stream"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Polytechnic Institute of New York University": {
+        "edges": [
+            {
+                "source": "http://engineering.nyu.edu/academics/departments/computer-science-engineering", 
+                "target": "http://engineering.nyu.edu/academics/departments/computer-science-engineering/people"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Washington": {
+        "edges": [
+            {
+                "source": "http://www.cs.washington.edu/", 
+                "target": "http://www.cs.washington.edu/people/staff"
+            }, 
+            {
+                "source": "http://www.cs.washington.edu/people/staff", 
+                "target": "http://www.cs.washington.edu/people/faculty/fulltime/by_research_area"
+            }, 
+            {
+                "source": "http://www.cs.washington.edu/people/faculty/fulltime/by_research_area", 
+                "target": "http://www.cs.washington.edu/people/faculty/fulltime"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Virginia Commonwealth University": {
+        "edges": [
+            {
+                "source": "http://www.egr.vcu.edu/departments/computer/", 
+                "target": "http://www.egr.vcu.edu/departments/computer/people/affiliate-faculty/"
+            }, 
+            {
+                "source": "http://www.egr.vcu.edu/departments/computer/people/affiliate-faculty/", 
+                "target": "http://www.egr.vcu.edu/departments/computer/people/faculty/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Rochester": {
+        "edges": [
+            {
+                "source": "http://www.cs.rochester.edu/", 
+                "target": "http://www.cs.rochester.edu/people/faculty/index.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Stanford University": {
+        "edges": [
+            {
+                "source": "http://www-cs.stanford.edu/", 
+                "target": "http://www-cs.stanford.edu/directory/administrative-staff"
+            }, 
+            {
+                "source": "http://www-cs.stanford.edu/directory/administrative-staff", 
+                "target": "http://www-cs.stanford.edu/directory/research-staff"
+            }, 
+            {
+                "source": "http://www-cs.stanford.edu/directory/research-staff", 
+                "target": "http://www-cs.stanford.edu/directory/faculty"
+            }
+        ], 
+        "value": 3
+    }, 
+    "University of British Columbia": {
+        "edges": [
+            {
+                "source": "https://www.cs.ubc.ca/", 
+                "target": "https://www.cs.ubc.ca/our-department/people/faculty"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Manitoba": {
+        "edges": [
+            {
+                "source": "http://www.cs.umanitoba.ca/newsite/", 
+                "target": "http://www.cs.umanitoba.ca/people/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Pennsylvania": {
+        "edges": [
+            {
+                "source": "http://www.cis.upenn.edu/", 
+                "target": "http://www.cis.upenn.edu/about-people/staff.php"
+            }, 
+            {
+                "source": "http://www.cis.upenn.edu/about-people/staff.php", 
+                "target": "http://www.cis.upenn.edu/about-people"
+            }, 
+            {
+                "source": "http://www.cis.upenn.edu/about-people", 
+                "target": "http://www.cis.upenn.edu/about-people/index.php"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Queen's University": {
+        "edges": [
+            {
+                "source": "http://www.cs.queensu.ca/", 
+                "target": "http://flux.cs.queensu.ca/news/2017/03/01/new-tenure-track-faculty-position-announced/"
+            }, 
+            {
+                "source": "http://flux.cs.queensu.ca/news/2017/03/01/new-tenure-track-faculty-position-announced/", 
+                "target": "http://www.cs.queensu.ca/people/faculty.php"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Wright State University": {
+        "edges": [
+            {
+                "source": "https://engineering-computer-science.wright.edu/computer-science-and-engineering", 
+                "target": "https://engineering-computer-science.wright.edu/computer-science-and-engineering/people"
+            }, 
+            {
+                "source": "https://engineering-computer-science.wright.edu/computer-science-and-engineering/people", 
+                "target": "https://engineering-computer-science.wright.edu/computer-science-and-engineering/about"
+            }, 
+            {
+                "source": "https://engineering-computer-science.wright.edu/computer-science-and-engineering/about", 
+                "target": "https://engineering-computer-science.wright.edu/computer-science-and-engineering/people/faculty-and-staff-directory"
+            }
+        ], 
+        "value": 3
+    }, 
+    "University of New Brunswick": {
+        "edges": [
+            {
+                "source": "http://www.unb.ca/fredericton/cs/", 
+                "target": "http://www.unb.ca/fredericton/cs/about/index.html"
+            }, 
+            {
+                "source": "http://www.unb.ca/fredericton/cs/about/index.html", 
+                "target": "http://www.cs.unb.ca/people"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Texas, Dallas": {
+        "edges": [
+            {
+                "source": "http://cs.utdallas.edu/", 
+                "target": "http://cs.utdallas.edu/people/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Kentucky": {
+        "edges": [
+            {
+                "source": "http://www.cs.uky.edu/", 
+                "target": "http://www.cs.uky.edu/people/staff"
+            }, 
+            {
+                "source": "http://www.cs.uky.edu/people/staff", 
+                "target": "http://www.cs.uky.edu/people/faculty"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Southern Methodist University": {
+        "edges": [
+            {
+                "source": "http://www.smu.edu/Lyle/Departments/CSE.aspx", 
+                "target": "http://www.smu.edu/Lyle/Departments/CSE/People/Faculty/TianJeff"
+            }, 
+            {
+                "source": "http://www.smu.edu/Lyle/Departments/CSE/People/Faculty/TianJeff", 
+                "target": "http://www.smu.edu/Lyle/Departments/CSE/People/Faculty"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Temple University": {
+        "edges": [
+            {
+                "source": "https://cis.temple.edu/", 
+                "target": "https://cis.temple.edu/people/faculty/tenure"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Louisiana, Lafayette": {
+        "edges": [
+            {
+                "source": "http://computing.louisiana.edu/about-us", 
+                "target": "http://computing.louisiana.edu/about-us/faculty-staff-0"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Tulsa": {
+        "edges": [
+            {
+                "source": "https://engineering.utulsa.edu/academics/computer-science/", 
+                "target": "https://faculty.utulsa.edu/college-of-engineering-natural-sciences/computer-science"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Boston University": {
+        "edges": [
+            {
+                "source": "http://www.bu.edu/cs/", 
+                "target": "http://www.bu.edu/cs/people/faculty/faculty-spotlight/a-vision-to-help-the-disabled/"
+            }, 
+            {
+                "source": "http://www.bu.edu/cs/people/faculty/faculty-spotlight/a-vision-to-help-the-disabled/", 
+                "target": "http://www.bu.edu/cs/people/faculty/faculty-spotlight/"
+            }, 
+            {
+                "source": "http://www.bu.edu/cs/people/faculty/faculty-spotlight/", 
+                "target": "http://www.bu.edu/cs/people/directory/"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Texas Tech University": {
+        "edges": [
+            {
+                "source": "http://www.depts.ttu.edu/cs/", 
+                "target": "http://www.depts.ttu.edu/cs/research/reu-dp/people.php"
+            }, 
+            {
+                "source": "http://www.depts.ttu.edu/cs/research/reu-dp/people.php", 
+                "target": "http://www.depts.ttu.edu/cs/faculty/faculty.php?name=Dong Dai"
+            }, 
+            {
+                "source": "http://www.depts.ttu.edu/cs/faculty/faculty.php?name=Dong Dai", 
+                "target": "http://www.depts.ttu.edu/cs/faculty/"
+            }
+        ], 
+        "value": 3
+    }, 
+    "University of Illinois, Urbana Champaign": {
+        "edges": [
+            {
+                "source": "http://cs.illinois.edu/", 
+                "target": "http://cs.illinois.edu/people/faculty/department-faculty"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Texas, El Paso": {
+        "edges": [
+            {
+                "source": "http://www.cs.utep.edu/", 
+                "target": "http://www.cs.utep.edu/people/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Central Florida": {
+        "edges": [
+            {
+                "source": "http://www.cs.ucf.edu/", 
+                "target": "http://www.cs.ucf.edu/people/staff.php"
+            }, 
+            {
+                "source": "http://www.cs.ucf.edu/people/staff.php", 
+                "target": "http://www.cs.ucf.edu/people/rank.php"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of North Carolina, Chapel Hill": {
+        "edges": [
+            {
+                "source": "http://www.cs.unc.edu/", 
+                "target": "http://cs.unc.edu/people-page/emeritus-faculty/"
+            }, 
+            {
+                "source": "http://cs.unc.edu/people-page/emeritus-faculty/", 
+                "target": "http://cs.unc.edu/people-page/adjunct-faculty/"
+            }, 
+            {
+                "source": "http://cs.unc.edu/people-page/adjunct-faculty/", 
+                "target": "http://cs.unc.edu/people-page/faculty/"
+            }
+        ], 
+        "value": 3
+    }, 
+    "University of Wisconsin, Madison": {
+        "edges": [
+            {
+                "source": "http://www.cs.wisc.edu/", 
+                "target": "http://www.cs.wisc.edu/news/2017-05-02-students-faculty-and-staff-honored-annual-awards-lunch"
+            }, 
+            {
+                "source": "http://www.cs.wisc.edu/news/2017-05-02-students-faculty-and-staff-honored-annual-awards-lunch", 
+                "target": "http://www.cs.wisc.edu/people/staff"
+            }, 
+            {
+                "source": "http://www.cs.wisc.edu/people/staff", 
+                "target": "http://www.cs.wisc.edu/people/emeritus-faculty"
+            }, 
+            {
+                "source": "http://www.cs.wisc.edu/people/emeritus-faculty", 
+                "target": "http://www.cs.wisc.edu/people/affiliate-faculty"
+            }, 
+            {
+                "source": "http://www.cs.wisc.edu/people/affiliate-faculty", 
+                "target": "http://www.cs.wisc.edu/people/faculty"
+            }
+        ], 
+        "value": 5
+    }, 
+    "Oregon State University": {
+        "edges": [
+            {
+                "source": "http://eecs.oregonstate.edu/", 
+                "target": "http://eecs.oregonstate.edu/people/staff-directory"
+            }, 
+            {
+                "source": "http://eecs.oregonstate.edu/people/staff-directory", 
+                "target": "http://eecs.oregonstate.edu/people/faculty-directory"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Florida Institute of Technology": {
+        "edges": [
+            {
+                "source": "http://cs.fit.edu/", 
+                "target": "http://cs.fit.edu/People"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Dalhousie University": {
+        "edges": [
+            {
+                "source": "http://www.cs.dal.ca/", 
+                "target": "https://www.dal.ca/faculty/computerscience/faculty-staff.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "New York University": {
+        "edges": [
+            {
+                "source": "http://cs.nyu.edu/", 
+                "target": "http://cs.nyu.edu/dynamic/people/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Memorial University of Newfoundland": {
+        "edges": [
+            {
+                "source": "http://www.mun.ca/computerscience/", 
+                "target": "http://www.mun.ca/computerscience/people/profiles/CindyMilley.php"
+            }, 
+            {
+                "source": "http://www.mun.ca/computerscience/people/profiles/CindyMilley.php", 
+                "target": "http://www.mun.ca/computerscience/people/stall_listing.php"
+            }, 
+            {
+                "source": "http://www.mun.ca/computerscience/people/stall_listing.php", 
+                "target": "http://www.mun.ca/computerscience/people/index.php"
+            }
+        ], 
+        "value": 3
+    }, 
+    "McMaster University": {
+        "edges": [
+            {
+                "source": "http://www.cas.mcmaster.ca/cas/", 
+                "target": "http://www.cas.mcmaster.ca/cas/0template1.php?500"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Texas, San Antonio": {
+        "edges": [
+            {
+                "source": "http://www.cs.utsa.edu/", 
+                "target": "http://www.cs.utsa.edu/news/110/97/Welcome-to-new-faculty-Mikhail-Gubanov/"
+            }, 
+            {
+                "source": "http://www.cs.utsa.edu/news/110/97/Welcome-to-new-faculty-Mikhail-Gubanov/", 
+                "target": "http://www.cs.utsa.edu/about/facstaff/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Toyota Technological Institute, Chicago": {
+        "edges": [
+            {
+                "source": "http://www.ttic.edu/", 
+                "target": "http://www.ttic.edu/faculty-hiring"
+            }, 
+            {
+                "source": "http://www.ttic.edu/faculty-hiring", 
+                "target": "http://www.ttic.edu/staff-hiring"
+            }, 
+            {
+                "source": "http://www.ttic.edu/staff-hiring", 
+                "target": "http://www.ttic.edu/faculty-alumni"
+            }, 
+            {
+                "source": "http://www.ttic.edu/faculty-alumni", 
+                "target": "http://www.ttic.edu/faculty"
+            }
+        ], 
+        "value": 4
+    }, 
+    "University of Alabama, Tuscaloosa": {
+        "edges": [
+            {
+                "source": "http://www.cs.ua.edu/", 
+                "target": "http://eng.ua.edu/faculty-and-staff/"
+            }, 
+            {
+                "source": "http://eng.ua.edu/faculty-and-staff/", 
+                "target": "http://cs.ua.edu/people/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Harvard University": {
+        "edges": [
+            {
+                "source": "https://www.seas.harvard.edu/computer-science", 
+                "target": "https://www.seas.harvard.edu/computer-science/people"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Florida State University": {
+        "edges": [
+            {
+                "source": "http://www.cs.fsu.edu/", 
+                "target": "http://www.cs.fsu.edu/department/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Ohio State University": {
+        "edges": [
+            {
+                "source": "https://cse.osu.edu/", 
+                "target": "https://cse.osu.edu/faculty-staff"
+            }, 
+            {
+                "source": "https://cse.osu.edu/faculty-staff", 
+                "target": "https://cse.osu.edu/directory"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of California, San Diego": {
+        "edges": [
+            {
+                "source": "http://cse.ucsd.edu/", 
+                "target": "http://cse.ucsd.edu/people/staff"
+            }, 
+            {
+                "source": "http://cse.ucsd.edu/people/staff", 
+                "target": "http://cse.ucsd.edu/people/faculty-profiles"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Lehigh University": {
+        "edges": [
+            {
+                "source": "http://www.cse.lehigh.edu/", 
+                "target": "http://www.cse.lehigh.edu/people/staff"
+            }, 
+            {
+                "source": "http://www.cse.lehigh.edu/people/staff", 
+                "target": "http://www.cse.lehigh.edu/people/faculty"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Drexel University": {
+        "edges": [
+            {
+                "source": "http://drexel.edu/cci/academics/departments/computer-science/", 
+                "target": "http://drexel.edu/cci/academics/departments/computer-science/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Wayne State University": {
+        "edges": [
+            {
+                "source": "http://engineering.wayne.edu/cs/index.php", 
+                "target": "http://engineering.wayne.edu/cs/about/index.php"
+            }, 
+            {
+                "source": "http://engineering.wayne.edu/cs/about/index.php", 
+                "target": "http://engineering.wayne.edu/cs/faculty.php"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Nova Southeastern University": {
+        "edges": [
+            {
+                "source": "http://cec.nova.edu/index.html", 
+                "target": "http://cec.nova.edu/faculty/index.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Maryland": {
+        "edges": [
+            {
+                "source": "http://www.cs.umd.edu/", 
+                "target": "http://www.cs.umd.edu/people/phonebook/staff"
+            }, 
+            {
+                "source": "http://www.cs.umd.edu/people/phonebook/staff", 
+                "target": "http://www.cs.umd.edu/people/phonebook/staff?combine=&title=&location=&order=field_staff_title&sort=asc"
+            }, 
+            {
+                "source": "http://www.cs.umd.edu/people/phonebook/staff?combine=&title=&location=&order=field_staff_title&sort=asc", 
+                "target": "http://www.cs.umd.edu/people/phonebook/staff?combine=&title=&location=&order=field_staff_title&sort=desc"
+            }, 
+            {
+                "source": "http://www.cs.umd.edu/people/phonebook/staff?combine=&title=&location=&order=field_staff_title&sort=desc", 
+                "target": "http://www.cs.umd.edu/people/phonebook/faculty"
+            }
+        ], 
+        "value": 4
+    }, 
+    "University of Colorado, Denver": {
+        "edges": [
+            {
+                "source": "http://www.ucdenver.edu/academics/colleges/Engineering/Programs/Computer-Science-and-Engineering/Pages/ComputerScienceEngineering.aspx", 
+                "target": "http://www.ucdenver.edu/academics/colleges/Engineering/Programs/Computer-Science-and-Engineering/faculty/Pages/FacultyStaff.aspx"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Brandeis University": {
+        "edges": [
+            {
+                "source": "http://www.brandeis.edu/departments/computer-science/index.html", 
+                "target": "http://www.brandeis.edu/departments/computer-science/people/index.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Vanderbilt University": {
+        "edges": [
+            {
+                "source": "http://engineering.vanderbilt.edu/eecs/", 
+                "target": "http://engineering.vanderbilt.edu/eecs/faculty-staff/index.php"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Georgia Institute of Technology": {
+        "edges": [
+            {
+                "source": "http://www.scs.gatech.edu/", 
+                "target": "http://www.scs.gatech.edu/people/staff"
+            }, 
+            {
+                "source": "http://www.scs.gatech.edu/people/staff", 
+                "target": "http://www.scs.gatech.edu/people/adjunct-faculty"
+            }, 
+            {
+                "source": "http://www.scs.gatech.edu/people/adjunct-faculty", 
+                "target": "http://www.scs.gatech.edu/people/research-faculty"
+            }, 
+            {
+                "source": "http://www.scs.gatech.edu/people/research-faculty", 
+                "target": "http://www.scs.gatech.edu/people/faculty"
+            }
+        ], 
+        "value": 4
+    }, 
+    "University of Colorado, Boulder": {
+        "edges": [
+            {
+                "source": "http://www.colorado.edu/cs/", 
+                "target": "http://www.colorado.edu/cs/facultystaff-resources"
+            }, 
+            {
+                "source": "http://www.colorado.edu/cs/facultystaff-resources", 
+                "target": "http://www.colorado.edu/cs/about"
+            }, 
+            {
+                "source": "http://www.colorado.edu/cs/about", 
+                "target": "http://www.colorado.edu/cs/faculty"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Brigham Young University": {
+        "edges": [
+            {
+                "source": "https://cs.byu.edu/", 
+                "target": "https://cs.byu.edu/department_faculty_and_staff_positions"
+            }, 
+            {
+                "source": "https://cs.byu.edu/department_faculty_and_staff_positions", 
+                "target": "https://cs.byu.edu/department/parttime_faculty"
+            }, 
+            {
+                "source": "https://cs.byu.edu/department/parttime_faculty", 
+                "target": "https://cs.byu.edu/fdirectory"
+            }
+        ], 
+        "value": 3
+    }, 
+    "University of Massachusetts, Lowell": {
+        "edges": [
+            {
+                "source": "https://www.uml.edu/Sciences/computer-science/", 
+                "target": "https://www.uml.edu/Sciences/computer-science/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Minnesota": {
+        "edges": [
+            {
+                "source": "https://www.cs.umn.edu/", 
+                "target": "https://www.cs.umn.edu/people/office_staff"
+            }, 
+            {
+                "source": "https://www.cs.umn.edu/people/office_staff", 
+                "target": "https://www.cs.umn.edu/people/research_staff"
+            }, 
+            {
+                "source": "https://www.cs.umn.edu/people/research_staff", 
+                "target": "https://www.cs.umn.edu/people/faculty"
+            }
+        ], 
+        "value": 3
+    }, 
+    "New Mexico State University": {
+        "edges": [
+            {
+                "source": "https://www.cs.nmsu.edu/wp13/", 
+                "target": "https://www.cs.nmsu.edu/wp13/computer-science-expecting-to-hire-faculty-in-cybersecurity-and-data-science/"
+            }, 
+            {
+                "source": "https://www.cs.nmsu.edu/wp13/computer-science-expecting-to-hire-faculty-in-cybersecurity-and-data-science/", 
+                "target": "https://www.cs.nmsu.edu/wp13/category/people/"
+            }, 
+            {
+                "source": "https://www.cs.nmsu.edu/wp13/category/people/", 
+                "target": "https://www.cs.nmsu.edu/wp13/nmsu-computer-science-degree-earns-accreditation-faculty-get-nearly-2-million-in-nsf-grants/"
+            }, 
+            {
+                "source": "https://www.cs.nmsu.edu/wp13/nmsu-computer-science-degree-earns-accreditation-faculty-get-nearly-2-million-in-nsf-grants/", 
+                "target": "https://www.cs.nmsu.edu/wp13/staff/"
+            }, 
+            {
+                "source": "https://www.cs.nmsu.edu/wp13/staff/", 
+                "target": "https://www.cs.nmsu.edu/wp13/faculty-members/"
+            }
+        ], 
+        "value": 5
+    }, 
+    "Northeastern University": {
+        "edges": [
+            {
+                "source": "http://www.ccis.northeastern.edu/", 
+                "target": "http://www.ccis.northeastern.edu/role/tenured-and-tenure-track-faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Louisville": {
+        "edges": [
+            {
+                "source": "http://louisville.edu/speed/computer/", 
+                "target": "http://louisville.edu/speed/computer/personnel"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of New Hampshire": {
+        "edges": [
+            {
+                "source": "http://ceps.unh.edu/computer-science/", 
+                "target": "http://ceps.unh.edu/faculty-promotion-and-tenure-procedures-and-documents"
+            }, 
+            {
+                "source": "http://ceps.unh.edu/faculty-promotion-and-tenure-procedures-and-documents", 
+                "target": "http://ceps.unh.edu/faculty/all"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Pennsylvania State University": {
+        "edges": [
+            {
+                "source": "http://www.eecs.psu.edu/", 
+                "target": "http://www.eecs.psu.edu/departments/faculty-staff-list.aspx"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Georgia State University": {
+        "edges": [
+            {
+                "source": "http://www.cs.gsu.edu/", 
+                "target": "http://cs.gsu.edu/resources/forms/faculty-staff/"
+            }, 
+            {
+                "source": "http://cs.gsu.edu/resources/forms/faculty-staff/", 
+                "target": "http://cs.gsu.edu/role/faculty/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Missouri, Columbia": {
+        "edges": [
+            {
+                "source": "http://engineering.missouri.edu/cs/", 
+                "target": "http://engineering.missouri.edu/faculty-staff/"
+            }, 
+            {
+                "source": "http://engineering.missouri.edu/faculty-staff/", 
+                "target": "http://engineering.missouri.edu/faculty-staff/faculty-research-resources/"
+            }, 
+            {
+                "source": "http://engineering.missouri.edu/faculty-staff/faculty-research-resources/", 
+                "target": "http://engineering.missouri.edu/faculty-staff/update/"
+            }, 
+            {
+                "source": "http://engineering.missouri.edu/faculty-staff/update/", 
+                "target": "http://engineering.missouri.edu/cs/faculty-staff/"
+            }
+        ], 
+        "value": 4
+    }, 
+    "University of Ottawa": {
+        "edges": [
+            {
+                "source": "http://engineering.uottawa.ca/eecs/", 
+                "target": "http://engineering.uottawa.ca/eecs/people"
+            }
+        ], 
+        "value": 1
+    }, 
+    "McGill University": {
+        "edges": [
+            {
+                "source": "http://www.cs.mcgill.ca/", 
+                "target": "http://www.cs.mcgill.ca/people/staff"
+            }, 
+            {
+                "source": "http://www.cs.mcgill.ca/people/staff", 
+                "target": "http://www.cs.mcgill.ca/people/faculty"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Naval Postgraduate School": {
+        "edges": [
+            {
+                "source": "http://www.nps.edu/web/cs/", 
+                "target": "http://www.nps.edu/web/cs/faculty"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Iowa State University": {
+        "edges": [
+            {
+                "source": "http://www.cs.iastate.edu/", 
+                "target": "http://www.cs.iastate.edu/people"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Montana State University": {
+        "edges": [
+            {
+                "source": "http://www.cs.montana.edu/", 
+                "target": "http://www.cs.montana.edu/personnel.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Johns Hopkins University": {
+        "edges": [
+            {
+                "source": "http://www.cs.jhu.edu/", 
+                "target": "https://www.cs.jhu.edu/people/staff/"
+            }, 
+            {
+                "source": "https://www.cs.jhu.edu/people/staff/", 
+                "target": "https://www.cs.jhu.edu/people/research-staff/"
+            }, 
+            {
+                "source": "https://www.cs.jhu.edu/people/research-staff/", 
+                "target": "https://www.cs.jhu.edu/people"
+            }, 
+            {
+                "source": "https://www.cs.jhu.edu/people", 
+                "target": "https://www.cs.jhu.edu/adminsupport/faculty/"
+            }, 
+            {
+                "source": "https://www.cs.jhu.edu/adminsupport/faculty/", 
+                "target": "https://www.cs.jhu.edu/2016/08/09/recent-hacks-raise-questions-about-security-of-u-s-voting-results/"
+            }, 
+            {
+                "source": "https://www.cs.jhu.edu/2016/08/09/recent-hacks-raise-questions-about-security-of-u-s-voting-results/", 
+                "target": "https://www.cs.jhu.edu/it-staff/"
+            }, 
+            {
+                "source": "https://www.cs.jhu.edu/it-staff/", 
+                "target": "https://www.cs.jhu.edu/people/advisory-board/"
+            }, 
+            {
+                "source": "https://www.cs.jhu.edu/people/advisory-board/", 
+                "target": "https://www.cs.jhu.edu/people/cs-affiliates/"
+            }, 
+            {
+                "source": "https://www.cs.jhu.edu/people/cs-affiliates/", 
+                "target": "http://cs.jhu.edu/faculty/~ijwang"
+            }, 
+            {
+                "source": "http://cs.jhu.edu/faculty/~ijwang", 
+                "target": "https://www.cs.jhu.edu/about/"
+            }, 
+            {
+                "source": "https://www.cs.jhu.edu/about/", 
+                "target": "https://www.cs.jhu.edu/faculty"
+            }
+        ], 
+        "value": 11
+    }, 
+    "DePaul University": {
+        "edges": [
+            {
+                "source": "http://www.cdm.depaul.edu/about/Pages/School-of-Computing.aspx", 
+                "target": "http://www.cdm.depaul.edu/Faculty-and-Staff/Pages/Faculty.aspx"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Massachusetts, Boston": {
+        "edges": [
+            {
+                "source": "http://www.cs.umb.edu/", 
+                "target": "http://www.cs.umb.edu/people/faculty/full_time/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Arizona": {
+        "edges": [
+            {
+                "source": "http://www.cs.arizona.edu/", 
+                "target": "http://www.cs.arizona.edu/people/faculty"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Rutgers University": {
+        "edges": [
+            {
+                "source": "http://www.cs.rutgers.edu/", 
+                "target": "http://www.cs.rutgers.edu/highlight/tenure-track-faculty-positions-in-ai-computer-systems-and-data-science"
+            }, 
+            {
+                "source": "http://www.cs.rutgers.edu/highlight/tenure-track-faculty-positions-in-ai-computer-systems-and-data-science", 
+                "target": "http://www.cs.rutgers.edu/people/faculty/affiliated-faculty"
+            }, 
+            {
+                "source": "http://www.cs.rutgers.edu/people/faculty/affiliated-faculty", 
+                "target": "http://www.cs.rutgers.edu/people/faculty/research-professors"
+            }, 
+            {
+                "source": "http://www.cs.rutgers.edu/people/faculty/research-professors", 
+                "target": "http://www.cs.rutgers.edu/people/faculty/professors"
+            }
+        ], 
+        "value": 4
+    }, 
+    "University of Maine": {
+        "edges": [
+            {
+                "source": "https://umaine.edu/cs/", 
+                "target": "https://umaine.edu/cs/computer-science-faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Virginia Tech": {
+        "edges": [
+            {
+                "source": "http://www.cs.vt.edu/", 
+                "target": "http://www.cs.vt.edu/people"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of South Carolina": {
+        "edges": [
+            {
+                "source": "http://sc.edu/study/colleges_schools/engineering_and_computing/study/areas_of_study/computer_science_and_engineering/index.php", 
+                "target": "http://sc.edu/study/colleges_schools/engineering_and_computing/study/areas_of_study/computer_science_and_engineering/our_people/index.php"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Houston": {
+        "edges": [
+            {
+                "source": "http://www.uh.edu/nsm/computer-science/", 
+                "target": "http://www.uh.edu/nsm/computer-science/people/"
+            }, 
+            {
+                "source": "http://www.uh.edu/nsm/computer-science/people/", 
+                "target": "http://www.uh.edu/nsm/computer-science/people/faculty/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Texas, Austin": {
+        "edges": [
+            {
+                "source": "http://www.cs.utexas.edu/", 
+                "target": "http://www.cs.utexas.edu/faculty/recruiting"
+            }, 
+            {
+                "source": "http://www.cs.utexas.edu/faculty/recruiting", 
+                "target": "http://www.cs.utexas.edu/directory"
+            }, 
+            {
+                "source": "http://www.cs.utexas.edu/directory", 
+                "target": "http://www.cs.utexas.edu/directory?attribute=All&attribute_4=&page=2"
+            }, 
+            {
+                "source": "http://www.cs.utexas.edu/directory?attribute=All&attribute_4=&page=2", 
+                "target": "http://www.cs.utexas.edu/directory?attribute=All&attribute_4=&page=1"
+            }, 
+            {
+                "source": "http://www.cs.utexas.edu/directory?attribute=All&attribute_4=&page=1", 
+                "target": "http://www.cs.utexas.edu/directory?attribute=All&attribute_4="
+            }, 
+            {
+                "source": "http://www.cs.utexas.edu/directory?attribute=All&attribute_4=", 
+                "target": "http://www.cs.utexas.edu/about"
+            }, 
+            {
+                "source": "http://www.cs.utexas.edu/about", 
+                "target": "http://www.cs.utexas.edu/undergraduate-program/about-us"
+            }, 
+            {
+                "source": "http://www.cs.utexas.edu/undergraduate-program/about-us", 
+                "target": "http://www.cs.utexas.edu/faculty"
+            }
+        ], 
+        "value": 8
+    }, 
+    "Mississippi State University": {
+        "edges": [
+            {
+                "source": "http://www.cse.msstate.edu/", 
+                "target": "http://www.cse.msstate.edu/People/Faculty/faculty-staff.php"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Maryland, Baltimore County": {
+        "edges": [
+            {
+                "source": "https://www.csee.umbc.edu/", 
+                "target": "https://www.csee.umbc.edu/people/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Saskatchewan": {
+        "edges": [
+            {
+                "source": "http://www.cs.usask.ca/", 
+                "target": "http://www.cs.usask.ca/about/people/index.php"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of North Texas": {
+        "edges": [
+            {
+                "source": "http://computerscience.engineering.unt.edu/", 
+                "target": "http://computerscience.engineering.unt.edu/content/people"
+            }, 
+            {
+                "source": "http://computerscience.engineering.unt.edu/content/people", 
+                "target": "http://computerscience.engineering.unt.edu/content/faculty-history"
+            }, 
+            {
+                "source": "http://computerscience.engineering.unt.edu/content/faculty-history", 
+                "target": "http://computerscience.engineering.unt.edu/cse-departmental-staff"
+            }, 
+            {
+                "source": "http://computerscience.engineering.unt.edu/cse-departmental-staff", 
+                "target": "http://computerscience.engineering.unt.edu/content/faculty"
+            }
+        ], 
+        "value": 4
+    }, 
+    "Oakland University": {
+        "edges": [
+            {
+                "source": "http://www.oakland.edu/secs/departments/computer-science-and-engineering/", 
+                "target": "http://www.oakland.edu/secs/directory/index"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Concordia University": {
+        "edges": [
+            {
+                "source": "http://www.concordia.ca/encs/computer-science-software-engineering.html", 
+                "target": "http://www.concordia.ca/encs/computer-science-software-engineering/about/faculty.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Buffalo, SUNY": {
+        "edges": [
+            {
+                "source": "http://www.cse.buffalo.edu/", 
+                "target": "http://www.cse.buffalo.edu/people/index.php?g=Tenure-Track"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Colorado School of Mines": {
+        "edges": [
+            {
+                "source": "http://cs.mines.edu/", 
+                "target": "http://cs.mines.edu/Directories"
+            }, 
+            {
+                "source": "http://cs.mines.edu/Directories", 
+                "target": "http://cs.mines.edu/AboutMines"
+            }, 
+            {
+                "source": "http://cs.mines.edu/AboutMines", 
+                "target": "http://cs.mines.edu/CS-Faculty"
+            }
+        ], 
+        "value": 3
+    }, 
+    "University of Arkansas, Fayetteville": {
+        "edges": [
+            {
+                "source": "http://computer-science-and-computer-engineering.uark.edu", 
+                "target": "http://computer-science-and-computer-engineering.uark.edu/facultysearch2017.php"
+            }, 
+            {
+                "source": "http://computer-science-and-computer-engineering.uark.edu/facultysearch2017.php", 
+                "target": "http://computer-science-and-computer-engineering.uark.edu/directory/index.php"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Rochester Institute of Technology": {
+        "edges": [
+            {
+                "source": "https://www.cs.rit.edu/", 
+                "target": "https://www.cs.rit.edu/people"
+            }
+        ], 
+        "value": 1
+    }, 
+    "California Institute of Technology": {
+        "edges": [
+            {
+                "source": "http://www.cms.caltech.edu", 
+                "target": "http://www.cms.caltech.edu/contact/directory"
+            }, 
+            {
+                "source": "http://www.cms.caltech.edu/contact/directory", 
+                "target": "http://www.cms.caltech.edu/people"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Bridgeport": {
+        "edges": [
+            {
+                "source": "http://www.bridgeport.edu/academics/undergraduate/computer-science-bs/", 
+                "target": "http://www.bridgeport.edu/academics/schools-colleges/school-engineering/facultystaff/"
+            }, 
+            {
+                "source": "http://www.bridgeport.edu/academics/schools-colleges/school-engineering/facultystaff/", 
+                "target": "http://www.bridgeport.edu/academics/schools-colleges/school-engineering/facultystaff/computer-science-and-engineering-faculty/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Clarkson University": {
+        "edges": [
+            {
+                "source": "http://www.clarkson.edu/cs/", 
+                "target": "http://www.clarkson.edu/cs/faculty.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "York University": {
+        "edges": [
+            {
+                "source": "http://eecs.lassonde.yorku.ca/", 
+                "target": "http://eecs.lassonde.yorku.ca/gallery/professor-burton-ma-wins-educator-of-the-year-award/"
+            }, 
+            {
+                "source": "http://eecs.lassonde.yorku.ca/gallery/professor-burton-ma-wins-educator-of-the-year-award/", 
+                "target": "http://eecs.lassonde.yorku.ca/community/staff-members/"
+            }, 
+            {
+                "source": "http://eecs.lassonde.yorku.ca/community/staff-members/", 
+                "target": "http://eecs.lassonde.yorku.ca/category/technical-staff/"
+            }, 
+            {
+                "source": "http://eecs.lassonde.yorku.ca/category/technical-staff/", 
+                "target": "http://eecs.lassonde.yorku.ca/community/faculty-members/"
+            }
+        ], 
+        "value": 4
+    }, 
+    "George Mason University": {
+        "edges": [
+            {
+                "source": "http://www.cs.gmu.edu/", 
+                "target": "http://www.cs.gmu.edu/directory/adjunct-faculty/"
+            }, 
+            {
+                "source": "http://www.cs.gmu.edu/directory/adjunct-faculty/", 
+                "target": "http://www.cs.gmu.edu/directory/by-category/emeritus-faculty/"
+            }, 
+            {
+                "source": "http://www.cs.gmu.edu/directory/by-category/emeritus-faculty/", 
+                "target": "http://www.cs.gmu.edu/directory/by-category/affiliated-faculty/"
+            }, 
+            {
+                "source": "http://www.cs.gmu.edu/directory/by-category/affiliated-faculty/", 
+                "target": "http://www.cs.gmu.edu/directory/by-category/faculty/"
+            }, 
+            {
+                "source": "http://www.cs.gmu.edu/directory/by-category/faculty/", 
+                "target": "http://www.cs.gmu.edu/directory/by-category/staff/"
+            }, 
+            {
+                "source": "http://www.cs.gmu.edu/directory/by-category/staff/", 
+                "target": "http://www.cs.gmu.edu/directory/by-category/faculty"
+            }
+        ], 
+        "value": 6
+    }, 
+    "University of California, Santa Barbara": {
+        "edges": [
+            {
+                "source": "http://www.cs.ucsb.edu/", 
+                "target": "http://www.cs.ucsb.edu/people/staff"
+            }, 
+            {
+                "source": "http://www.cs.ucsb.edu/people/staff", 
+                "target": "http://www.cs.ucsb.edu/people/staff/spahn"
+            }, 
+            {
+                "source": "http://www.cs.ucsb.edu/people/staff/spahn", 
+                "target": "http://www.cs.ucsb.edu/people"
+            }
+        ], 
+        "value": 3
+    }, 
+    "University of Nevada, Reno": {
+        "edges": [
+            {
+                "source": "https://www.unr.edu/cse/", 
+                "target": "https://www.unr.edu/cse/people"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Worcester Polytechnic Institute": {
+        "edges": [
+            {
+                "source": "https://www.wpi.edu/academics/departments/computer-science", 
+                "target": "https://www.wpi.edu/academics/departments/computer-science/faculty-staff"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Southern California": {
+        "edges": [
+            {
+                "source": "http://www.cs.usc.edu/", 
+                "target": "http://www.cs.usc.edu/people?t=2"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Columbia University": {
+        "edges": [
+            {
+                "source": "http://www.cs.columbia.edu/", 
+                "target": "http://www.cs.columbia.edu/people/directory/"
+            }, 
+            {
+                "source": "http://www.cs.columbia.edu/people/directory/", 
+                "target": "http://www.cs.columbia.edu/people/faculty/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Miami": {
+        "edges": [
+            {
+                "source": "http://www.as.miami.edu/csc/", 
+                "target": "http://www.as.miami.edu/csc/people/faculty/dr-ubbo-visser/"
+            }, 
+            {
+                "source": "http://www.as.miami.edu/csc/people/faculty/dr-ubbo-visser/", 
+                "target": "http://www.as.miami.edu/csc/people/faculty/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Oklahoma State University": {
+        "edges": [
+            {
+                "source": "http://www.cs.okstate.edu/", 
+                "target": "http://www.cs.okstate.edu/faculty.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of California, Santa Cruz": {
+        "edges": [
+            {
+                "source": "https://www.soe.ucsc.edu/departments/computer-science", 
+                "target": "https://www.soe.ucsc.edu/departments/computer-science/people"
+            }, 
+            {
+                "source": "https://www.soe.ucsc.edu/departments/computer-science/people", 
+                "target": "https://www.soe.ucsc.edu/departments/computer-science/people/staff"
+            }, 
+            {
+                "source": "https://www.soe.ucsc.edu/departments/computer-science/people/staff", 
+                "target": "https://www.soe.ucsc.edu/departments/computer-science/people/faculty"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Long Island University": {
+        "edges": [
+            {
+                "source": "http://liu.edu/Brooklyn/Academics/~/link.aspx?_id=33C3F024AAEB4345AC24E26D737336E2", 
+                "target": "http://liu.edu/Brooklyn/Academics/Faculty/Faculty"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Southern Illinois University, Carbondale": {
+        "edges": [
+            {
+                "source": "http://www.cs.siu.edu/", 
+                "target": "http://www.cs.siu.edu/faculty-staff/index.php"
+            }, 
+            {
+                "source": "http://www.cs.siu.edu/faculty-staff/index.php", 
+                "target": "http://www.cs.siu.edu/faculty-staff/staff.php"
+            }, 
+            {
+                "source": "http://www.cs.siu.edu/faculty-staff/staff.php", 
+                "target": "http://www.cs.siu.edu/faculty-staff/emeritus_faculty.php"
+            }, 
+            {
+                "source": "http://www.cs.siu.edu/faculty-staff/emeritus_faculty.php", 
+                "target": "http://www.cs.siu.edu/faculty-staff/adjunct_faculty.php"
+            }, 
+            {
+                "source": "http://www.cs.siu.edu/faculty-staff/adjunct_faculty.php", 
+                "target": "http://www.cs.siu.edu/faculty-staff/continuing_faculty.php"
+            }
+        ], 
+        "value": 5
+    }, 
+    "University of Victoria": {
+        "edges": [
+            {
+                "source": "http://www.uvic.ca/engineering/computerscience", 
+                "target": "http://www.uvic.ca/engineering/computerscience"
+            }, 
+            {
+                "source": "http://www.uvic.ca/engineering/computerscience", 
+                "target": "http://www.uvic.ca/engineering/computerscience/home/news/current/improving-seniors-home-care-with-wireless-technology.php"
+            }, 
+            {
+                "source": "http://www.uvic.ca/engineering/computerscience/home/news/current/improving-seniors-home-care-with-wireless-technology.php", 
+                "target": "https://www.uvic.ca/engineering/computerscience/people/employment-opportunities/index.php"
+            }, 
+            {
+                "source": "https://www.uvic.ca/engineering/computerscience/people/employment-opportunities/index.php", 
+                "target": "https://www.uvic.ca/engineering/computerscience/people/faculty/index.php"
+            }, 
+            {
+                "source": "https://www.uvic.ca/engineering/computerscience/people/faculty/index.php", 
+                "target": "https://www.uvic.ca/engineering/computerscience/people/staff/index.php"
+            }, 
+            {
+                "source": "https://www.uvic.ca/engineering/computerscience/people/staff/index.php", 
+                "target": "https://www.uvic.ca/engineering/computerscience/people/index.php"
+            }, 
+            {
+                "source": "https://www.uvic.ca/engineering/computerscience/people/index.php", 
+                "target": "http://www.uvic.ca/engineering/computerscience/people/index.php"
+            }, 
+            {
+                "source": "http://www.uvic.ca/engineering/computerscience/people/index.php", 
+                "target": "http://www.uvic.ca/engineering/computerscience/people/faculty/index.php"
+            }
+        ], 
+        "value": 8
+    }, 
+    "Illinois Institute of Technology": {
+        "edges": [
+            {
+                "source": "http://science.iit.edu/computer-science", 
+                "target": "http://science.iit.edu/computer-science/people"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Virginia": {
+        "edges": [
+            {
+                "source": "http://www.cs.virginia.edu/", 
+                "target": "http://www.cs.virginia.edu/people/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Southern Mississippi": {
+        "edges": [
+            {
+                "source": "https://www.usm.edu/computing", 
+                "target": "https://www.usm.edu/computing/faculty-quick-links"
+            }, 
+            {
+                "source": "https://www.usm.edu/computing/faculty-quick-links", 
+                "target": "https://www.usm.edu/computing/staff"
+            }, 
+            {
+                "source": "https://www.usm.edu/computing/staff", 
+                "target": "https://www.usm.edu/computing/faculty"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Texas A&M University": {
+        "edges": [
+            {
+                "source": "http://engineering.tamu.edu/cse/", 
+                "target": "http://engineering.tamu.edu/cse/people"
+            }
+        ], 
+        "value": 1
+    }, 
+    "George Washington University": {
+        "edges": [
+            {
+                "source": "https://www.cs.seas.gwu.edu/", 
+                "target": "https://www.cs.seas.gwu.edu/tenure-track-position-assistant-or-associate-level"
+            }, 
+            {
+                "source": "https://www.cs.seas.gwu.edu/tenure-track-position-assistant-or-associate-level", 
+                "target": "https://www.cs.seas.gwu.edu/people"
+            }, 
+            {
+                "source": "https://www.cs.seas.gwu.edu/people", 
+                "target": "https://www.cs.seas.gwu.edu/staff"
+            }, 
+            {
+                "source": "https://www.cs.seas.gwu.edu/staff", 
+                "target": "https://www.cs.seas.gwu.edu/faculty"
+            }
+        ], 
+        "value": 4
+    }, 
+    "University of Massachusetts, Amherst": {
+        "edges": [
+            {
+                "source": "https://www.cics.umass.edu/", 
+                "target": "https://www.cics.umass.edu/people/staff-directory"
+            }, 
+            {
+                "source": "https://www.cics.umass.edu/people/staff-directory", 
+                "target": "https://www.cics.umass.edu/faculty/faculty-directory"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Florida International University": {
+        "edges": [
+            {
+                "source": "http://www.cis.fiu.edu/", 
+                "target": "https://www.cis.fiu.edu/people/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Princeton University": {
+        "edges": [
+            {
+                "source": "http://www.cs.princeton.edu/", 
+                "target": "http://www.cs.princeton.edu/people/faculty"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Western Michigan University": {
+        "edges": [
+            {
+                "source": "http://wmich.edu/cs/", 
+                "target": "http://wmich.edu/cs/directory"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Alabama, Birmingham": {
+        "edges": [
+            {
+                "source": "http://www.uab.edu/cas/computerscience/", 
+                "target": "http://www.uab.edu/cas/computerscience/people/staff-directory"
+            }, 
+            {
+                "source": "http://www.uab.edu/cas/computerscience/people/staff-directory", 
+                "target": "http://www.uab.edu/cas/computerscience/people/faculty-directory"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Old Dominion University": {
+        "edges": [
+            {
+                "source": "http://www.odu.edu/compsci", 
+                "target": "http://www.odu.edu/compsci/news/2017/2/tenure_track_cs_facu"
+            }, 
+            {
+                "source": "http://www.odu.edu/compsci/news/2017/2/tenure_track_cs_facu", 
+                "target": "http://www.odu.edu/compsci/directory"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Michigan State University": {
+        "edges": [
+            {
+                "source": "http://www.cse.msu.edu/", 
+                "target": "http://www.cse.msu.edu/People/Faculty_Staff"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Cincinnati": {
+        "edges": [
+            {
+                "source": "http://eecs.ceas.uc.edu/", 
+                "target": "http://eecs.ceas.uc.edu/people/faculty-directory-listing"
+            }, 
+            {
+                "source": "http://eecs.ceas.uc.edu/people/faculty-directory-listing", 
+                "target": "http://eecs.ceas.uc.edu/people/staff-directory"
+            }, 
+            {
+                "source": "http://eecs.ceas.uc.edu/people/staff-directory", 
+                "target": "http://eecs.ceas.uc.edu/people/faculty-directory"
+            }
+        ], 
+        "value": 3
+    }, 
+    "University of Wisconsin, Milwaukee": {
+        "edges": [
+            {
+                "source": "http://uwm.edu/engineering/academics-2/departments/computer-science/", 
+                "target": "http://uwm.edu/engineering/classification/faculty/computer-science/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Stony Brook University, SUNY": {
+        "edges": [
+            {
+                "source": "https://www.cs.stonybrook.edu/", 
+                "target": "https://www.cs.stonybrook.edu/people/staff"
+            }, 
+            {
+                "source": "https://www.cs.stonybrook.edu/people/staff", 
+                "target": "https://www.cs.stonybrook.edu/people/faculty"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Clemson University": {
+        "edges": [
+            {
+                "source": "http://www.clemson.edu/cecas/departments/computing/", 
+                "target": "http://www.clemson.edu/cecas/departments/computing/people/index.html"
+            }, 
+            {
+                "source": "http://www.clemson.edu/cecas/departments/computing/people/index.html", 
+                "target": "http://www.clemson.edu/cecas/departments/computing/people/affiliated_faculty/index.html"
+            }, 
+            {
+                "source": "http://www.clemson.edu/cecas/departments/computing/people/affiliated_faculty/index.html", 
+                "target": "http://www.clemson.edu/cecas/departments/computing/people/affiliated_faculty/emeriti.html"
+            }, 
+            {
+                "source": "http://www.clemson.edu/cecas/departments/computing/people/affiliated_faculty/emeriti.html", 
+                "target": "http://www.clemson.edu/cecas/departments/computing/people/affiliated_faculty/research.html"
+            }, 
+            {
+                "source": "http://www.clemson.edu/cecas/departments/computing/people/affiliated_faculty/research.html", 
+                "target": "http://www.clemson.edu/cecas/departments/computing/people/affiliated_faculty/associated.html"
+            }, 
+            {
+                "source": "http://www.clemson.edu/cecas/departments/computing/people/affiliated_faculty/associated.html", 
+                "target": "http://www.clemson.edu/cecas/departments/computing/people/faculty/index.html"
+            }
+        ], 
+        "value": 6
+    }, 
+    "Yale University": {
+        "edges": [
+            {
+                "source": "http://cpsc.yale.edu/", 
+                "target": "http://cpsc.yale.edu/people/faculty"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Utah": {
+        "edges": [
+            {
+                "source": "http://www.cs.utah.edu/", 
+                "target": "http://www.cs.utah.edu/people/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Toledo": {
+        "edges": [
+            {
+                "source": "http://www.utoledo.edu/engineering/electrical-engineering-computer-science/", 
+                "target": "http://www.utoledo.edu/engineering/electrical-engineering-computer-science/people/index.html"
+            }, 
+            {
+                "source": "http://www.utoledo.edu/engineering/electrical-engineering-computer-science/people/index.html", 
+                "target": "http://www.utoledo.edu/engineering/electrical-engineering-computer-science/people/prestige_faculty.html"
+            }, 
+            {
+                "source": "http://www.utoledo.edu/engineering/electrical-engineering-computer-science/people/prestige_faculty.html", 
+                "target": "http://www.utoledo.edu/engineering/electrical-engineering-computer-science/people/emeritus_faculty.html"
+            }, 
+            {
+                "source": "http://www.utoledo.edu/engineering/electrical-engineering-computer-science/people/emeritus_faculty.html", 
+                "target": "http://www.utoledo.edu/engineering/electrical-engineering-computer-science/people/faculty.html"
+            }
+        ], 
+        "value": 4
+    }, 
+    "Kent State University": {
+        "edges": [
+            {
+                "source": "http://www.kent.edu/cas/cs/", 
+                "target": "http://www.kent.edu/cs/faculty-staff"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Rhode Island": {
+        "edges": [
+            {
+                "source": "http://www.cs.uri.edu/", 
+                "target": "https://www.cs.uri.edu/about-us/people/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Utah State University": {
+        "edges": [
+            {
+                "source": "http://www.cs.usu.edu/", 
+                "target": "http://www.cs.usu.edu/people/staff.php"
+            }, 
+            {
+                "source": "http://www.cs.usu.edu/people/staff.php", 
+                "target": "http://www.cs.usu.edu/people/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Wyoming": {
+        "edges": [
+            {
+                "source": "http://www.uwyo.edu/cosc/", 
+                "target": "http://www.uwyo.edu/cosc/cosc-directory/index.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Illinois, Chicago": {
+        "edges": [
+            {
+                "source": "http://www.cs.uic.edu/", 
+                "target": "https://www.cs.uic.edu/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Arkansas, Little Rock": {
+        "edges": [
+            {
+                "source": "http://ualr.edu/computerscience/", 
+                "target": "http://ualr.edu/computerscience/2016/05/10/ualr-2016-faculty-excellence-award-for-excellence-in-research-dr-shucheng-yu-2/"
+            }, 
+            {
+                "source": "http://ualr.edu/computerscience/2016/05/10/ualr-2016-faculty-excellence-award-for-excellence-in-research-dr-shucheng-yu-2/", 
+                "target": "http://ualr.edu/computerscience/people/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Binghamton University, SUNY": {
+        "edges": [
+            {
+                "source": "http://www.binghamton.edu/cs/", 
+                "target": "http://www.binghamton.edu/cs/people/faculty-and-staff.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Purdue University": {
+        "edges": [
+            {
+                "source": "https://www.cs.purdue.edu/", 
+                "target": "https://www.cs.purdue.edu/people/printable_faculty_staff_directory.html"
+            }, 
+            {
+                "source": "https://www.cs.purdue.edu/people/printable_faculty_staff_directory.html", 
+                "target": "https://www.cs.purdue.edu/people/faculty/index.html"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Massachusetts Institute of Technology": {
+        "edges": [
+            {
+                "source": "http://www.eecs.mit.edu/", 
+                "target": "http://www.eecs.mit.edu/news-events/announcements/student-faculty-and-staff-award-winners-be-honored-eecs-celebrates"
+            }, 
+            {
+                "source": "http://www.eecs.mit.edu/news-events/announcements/student-faculty-and-staff-award-winners-be-honored-eecs-celebrates", 
+                "target": "http://www.eecs.mit.edu/people/staff"
+            }, 
+            {
+                "source": "http://www.eecs.mit.edu/people/staff", 
+                "target": "http://www.eecs.mit.edu/people/faculty-advisors"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Kansas State University": {
+        "edges": [
+            {
+                "source": "http://www.cs.ksu.edu/", 
+                "target": "http://www.cs.ksu.edu/people/staff"
+            }, 
+            {
+                "source": "http://www.cs.ksu.edu/people/staff", 
+                "target": "http://www.cs.ksu.edu/people/faculty"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Notre Dame": {
+        "edges": [
+            {
+                "source": "http://cse.nd.edu/", 
+                "target": "http://cse.nd.edu/people/directory"
+            }, 
+            {
+                "source": "http://cse.nd.edu/people/directory", 
+                "target": "http://cse.nd.edu/people/staff"
+            }, 
+            {
+                "source": "http://cse.nd.edu/people/staff", 
+                "target": "http://cse.nd.edu/people/faculty"
+            }
+        ], 
+        "value": 3
+    }, 
+    "University of Oklahoma": {
+        "edges": [
+            {
+                "source": "http://www.ou.edu/coe/cs.html", 
+                "target": "http://www.ou.edu/content/coe/cs/people.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Missouri, Kansas City": {
+        "edges": [
+            {
+                "source": "https://sce.umkc.edu/about/computer-science-electrical-engineering/", 
+                "target": "https://sce.umkc.edu/about/people/"
+            }, 
+            {
+                "source": "https://sce.umkc.edu/about/people/", 
+                "target": "https://sce.umkc.edu/about/people/affiliated-faculty/"
+            }, 
+            {
+                "source": "https://sce.umkc.edu/about/people/affiliated-faculty/", 
+                "target": "https://sce.umkc.edu/about/people/faculty-by-expertise/"
+            }, 
+            {
+                "source": "https://sce.umkc.edu/about/people/faculty-by-expertise/", 
+                "target": "https://sce.umkc.edu/departments/facultycsee/"
+            }
+        ], 
+        "value": 4
+    }, 
+    "University of Kansas": {
+        "edges": [
+            {
+                "source": "http://www.eecs.ku.edu/", 
+                "target": "http://www.eecs.ku.edu/people/technical_staff"
+            }, 
+            {
+                "source": "http://www.eecs.ku.edu/people/technical_staff", 
+                "target": "http://www.eecs.ku.edu/people/administrative_staff"
+            }, 
+            {
+                "source": "http://www.eecs.ku.edu/people/administrative_staff", 
+                "target": "http://www.eecs.ku.edu/people/faculty"
+            }
+        ], 
+        "value": 3
+    }, 
+    "College of William & Mary": {
+        "edges": [
+            {
+                "source": "http://www.wm.edu/as/computerscience/", 
+                "target": "http://www.wm.edu/as/computerscience/faculty/index.php"
+            }
+        ], 
+        "value": 1
+    }, 
+    "New Jersey Institute of Technology": {
+        "edges": [
+            {
+                "source": "http://cs.njit.edu/", 
+                "target": "http://cs.njit.edu/people/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Washington University, St. Louis": {
+        "edges": [
+            {
+                "source": "https://cse.wustl.edu/Pages/default.aspx", 
+                "target": "https://cse.wustl.edu/faculty/Pages/collaborating-faculty.aspx"
+            }, 
+            {
+                "source": "https://cse.wustl.edu/faculty/Pages/collaborating-faculty.aspx", 
+                "target": "https://cse.wustl.edu/faculty/Pages/default.aspx"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Mississippi": {
+        "edges": [
+            {
+                "source": "https://www.cs.olemiss.edu/", 
+                "target": "https://www.cs.olemiss.edu/people"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Northwestern University": {
+        "edges": [
+            {
+                "source": "http://www.mccormick.northwestern.edu/eecs/computer-science/", 
+                "target": "http://www.mccormick.northwestern.edu/eecs/computer-science/people/faculty/index.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Nevada, Las Vegas": {
+        "edges": [
+            {
+                "source": "https://www.unlv.edu/cs", 
+                "target": "https://www.unlv.edu/cs/directory"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Toronto": {
+        "edges": [
+            {
+                "source": "http://web.cs.toronto.edu/", 
+                "target": "http://web.cs.toronto.edu/people/faculty.htm"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of North Carolina, Charlotte": {
+        "edges": [
+            {
+                "source": "http://cs.uncc.edu/", 
+                "target": "http://cs.uncc.edu/people-0"
+            }, 
+            {
+                "source": "http://cs.uncc.edu/people-0", 
+                "target": "https://cs.uncc.edu/people/cs-staff"
+            }, 
+            {
+                "source": "https://cs.uncc.edu/people/cs-staff", 
+                "target": "https://cs.uncc.edu/people/cs-faculty"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Santa Clara University": {
+        "edges": [
+            {
+                "source": "http://www.scu.edu/engineering/cse/", 
+                "target": "http://www.scu.edu/engineering/academic-programs/department-of-computer-engineering/faculty--staff/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Rensselaer Polytechnic Institute": {
+        "edges": [
+            {
+                "source": "http://www.cs.rpi.edu/", 
+                "target": "http://www.cs.rpi.edu/people/faculty.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Oregon": {
+        "edges": [
+            {
+                "source": "https://www.cs.uoregon.edu/", 
+                "target": "https://www.cs.uoregon.edu/People/Faculty/index.php"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Ohio University": {
+        "edges": [
+            {
+                "source": "https://www.ohio.edu/engineering/eecs/index.cfm", 
+                "target": "https://www.ohio.edu/engineering/eecs/directory.cfm"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of California, Davis": {
+        "edges": [
+            {
+                "source": "http://www.cs.ucdavis.edu/", 
+                "target": "http://www.cs.ucdavis.edu/people/"
+            }, 
+            {
+                "source": "http://www.cs.ucdavis.edu/people/", 
+                "target": "http://www.cs.ucdavis.edu/people/faculty/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Delaware": {
+        "edges": [
+            {
+                "source": "http://www.cis.udel.edu/", 
+                "target": "http://www.cis.udel.edu/people/rasfaculty.html"
+            }, 
+            {
+                "source": "http://www.cis.udel.edu/people/rasfaculty.html", 
+                "target": "http://www.cis.udel.edu/people/staff.html"
+            }, 
+            {
+                "source": "http://www.cis.udel.edu/people/staff.html", 
+                "target": "http://www.cis.udel.edu/people/index.html"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Oregon Health & Science University": {
+        "edges": [
+            {
+                "source": "https://www.ohsu.edu/xd/research/centers-institutes/center-for-spoken-language-understanding/", 
+                "target": "https://www.ohsu.edu/xd/research/centers-institutes/center-for-spoken-language-understanding/people.cfm"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of California, Riverside": {
+        "edges": [
+            {
+                "source": "http://www1.cs.ucr.edu/", 
+                "target": "http://www1.cs.ucr.edu/people/faculty"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Auburn University": {
+        "edges": [
+            {
+                "source": "http://www.eng.auburn.edu/comp/", 
+                "target": "http://www.eng.auburn.edu/comp/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Calgary": {
+        "edges": [
+            {
+                "source": "http://www.ucalgary.ca/cpsc/", 
+                "target": "http://www.ucalgary.ca/cpsc_info/contact-us/directory"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Florida Atlantic University": {
+        "edges": [
+            {
+                "source": "http://www.ceecs.fau.edu/", 
+                "target": "http://www.ceecs.fau.edu/engineering/ceecs/directory/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Chicago": {
+        "edges": [
+            {
+                "source": "https://www.cs.uchicago.edu/", 
+                "target": "https://www.cs.uchicago.edu/directories/table/staff"
+            }, 
+            {
+                "source": "https://www.cs.uchicago.edu/directories/table/staff", 
+                "target": "https://www.cs.uchicago.edu/directories/photo/staff"
+            }, 
+            {
+                "source": "https://www.cs.uchicago.edu/directories/photo/staff", 
+                "target": "https://www.cs.uchicago.edu/directories/table/faculty"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Colorado State University": {
+        "edges": [
+            {
+                "source": "http://www.engr.colostate.edu/ece/", 
+                "target": "http://www.engr.colostate.edu/ece/facultystaff/people.php"
+            }, 
+            {
+                "source": "http://www.engr.colostate.edu/ece/facultystaff/people.php", 
+                "target": "http://www.engr.colostate.edu/ece/facultystaff/affiliate_faculty.php"
+            }, 
+            {
+                "source": "http://www.engr.colostate.edu/ece/facultystaff/affiliate_faculty.php", 
+                "target": "http://www.engr.colostate.edu/ece/facultystaff/staff.php"
+            }, 
+            {
+                "source": "http://www.engr.colostate.edu/ece/facultystaff/staff.php", 
+                "target": "http://www.engr.colostate.edu/ece/facultystaff/faculty.php"
+            }
+        ], 
+        "value": 4
+    }, 
+    "Louisiana State University": {
+        "edges": [
+            {
+                "source": "http://www.lsu.edu/eng/cse/", 
+                "target": "http://www.lsu.edu/eng/cse/people/faculty/index.php"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Cornell University": {
+        "edges": [
+            {
+                "source": "http://www.cs.cornell.edu/", 
+                "target": "http://www.cs.cornell.edu/people/staff"
+            }, 
+            {
+                "source": "http://www.cs.cornell.edu/people/staff", 
+                "target": "http://www.cs.cornell.edu/people/faculty"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Carleton University": {
+        "edges": [
+            {
+                "source": "http://www.scs.carleton.ca/", 
+                "target": "https://carleton.ca/scs/our-people/retired-faculty/"
+            }, 
+            {
+                "source": "https://carleton.ca/scs/our-people/retired-faculty/", 
+                "target": "https://carleton.ca/scs/our-people/adjunct-faculty/"
+            }, 
+            {
+                "source": "https://carleton.ca/scs/our-people/adjunct-faculty/", 
+                "target": "https://carleton.ca/scs/our-people/faculty/"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Claremont Graduate University": {
+        "edges": [
+            {
+                "source": "https://www.cgu.edu/school/center-for-information-systems-and-technology/", 
+                "target": "https://www.cgu.edu/school/center-for-information-systems-and-technology/faculty/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Missouri University of Science & Technology": {
+        "edges": [
+            {
+                "source": "http://cs.mst.edu/", 
+                "target": "http://cs.mst.edu/facultystaffandfacilities/staffdirectory/"
+            }, 
+            {
+                "source": "http://cs.mst.edu/facultystaffandfacilities/staffdirectory/", 
+                "target": "http://cs.mst.edu/facultystaffandfacilities/facultydirectory/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Hawaii": {
+        "edges": [
+            {
+                "source": "http://www.ics.hawaii.edu/", 
+                "target": "http://www.ics.hawaii.edu/2017/03/professor-lipyeow-lim-on-bytemarks-cafe/"
+            }, 
+            {
+                "source": "http://www.ics.hawaii.edu/2017/03/professor-lipyeow-lim-on-bytemarks-cafe/", 
+                "target": "http://www.ics.hawaii.edu/category/all/faculty/"
+            }, 
+            {
+                "source": "http://www.ics.hawaii.edu/category/all/faculty/", 
+                "target": "http://www.ics.hawaii.edu/category/all/faculty/page/5/"
+            }, 
+            {
+                "source": "http://www.ics.hawaii.edu/category/all/faculty/page/5/", 
+                "target": "http://www.ics.hawaii.edu/category/all/faculty/page/4/"
+            }, 
+            {
+                "source": "http://www.ics.hawaii.edu/category/all/faculty/page/4/", 
+                "target": "http://www.ics.hawaii.edu/category/all/faculty/page/3/"
+            }, 
+            {
+                "source": "http://www.ics.hawaii.edu/category/all/faculty/page/3/", 
+                "target": "http://www.ics.hawaii.edu/category/all/faculty/page/2/"
+            }, 
+            {
+                "source": "http://www.ics.hawaii.edu/category/all/faculty/page/2/", 
+                "target": "http://www.ics.hawaii.edu/category/all/faculty/page/2/?s="
+            }, 
+            {
+                "source": "http://www.ics.hawaii.edu/category/all/faculty/page/2/?s=", 
+                "target": "http://www.ics.hawaii.edu/people/"
+            }
+        ], 
+        "value": 8
+    }, 
+    "Duke University": {
+        "edges": [
+            {
+                "source": "http://www.cs.duke.edu/", 
+                "target": "http://www.cs.duke.edu/department/resource_pages/faculty_staff.php"
+            }, 
+            {
+                "source": "http://www.cs.duke.edu/department/resource_pages/faculty_staff.php", 
+                "target": "http://www.cs.duke.edu/people/"
+            }, 
+            {
+                "source": "http://www.cs.duke.edu/people/", 
+                "target": "http://www.cs.duke.edu/people/faculty/"
+            }
+        ], 
+        "value": 3
+    }, 
+    "Tufts University": {
+        "edges": [
+            {
+                "source": "http://www.cs.tufts.edu/", 
+                "target": "http://www.cs.tufts.edu/People/faculty.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Montreal": {
+        "edges": [
+            {
+                "source": "http://diro.umontreal.ca/accueil/", 
+                "target": "http://diro.umontreal.ca/accueil/repertoire-departement/professeurs/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Portland State University": {
+        "edges": [
+            {
+                "source": "https://www.pdx.edu/computer-science/", 
+                "target": "https://www.pdx.edu/computer-science/people"
+            }, 
+            {
+                "source": "https://www.pdx.edu/computer-science/people", 
+                "target": "https://www.pdx.edu/computer-science/news/cee-faculty-and-staff-recognized-mcecs-david-e-wedge-awards-excellence"
+            }, 
+            {
+                "source": "https://www.pdx.edu/computer-science/news/cee-faculty-and-staff-recognized-mcecs-david-e-wedge-awards-excellence", 
+                "target": "https://www.pdx.edu/computer-science/computer-science-department-staff"
+            }, 
+            {
+                "source": "https://www.pdx.edu/computer-science/computer-science-department-staff", 
+                "target": "https://www.pdx.edu/computer-science/computer-science-academic-faculty"
+            }
+        ], 
+        "value": 4
+    }, 
+    "Carnegie Mellon University": {
+        "edges": [
+            {
+                "source": "http://www.cs.cmu.edu/", 
+                "target": "http://www.cs.cmu.edu/directory"
+            }, 
+            {
+                "source": "http://www.cs.cmu.edu/directory", 
+                "target": "http://www.cs.cmu.edu/directory/all"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Alabama, Huntsville": {
+        "edges": [
+            {
+                "source": "http://www.uah.edu/science/departments/computer-science", 
+                "target": "http://www.uah.edu/science/departments/computer-science/faculty-staff"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Georgia": {
+        "edges": [
+            {
+                "source": "http://www.cs.uga.edu/", 
+                "target": "http://www.cs.uga.edu/facultystaff"
+            }, 
+            {
+                "source": "http://www.cs.uga.edu/facultystaff", 
+                "target": "http://www.cs.uga.edu/staff-directory"
+            }, 
+            {
+                "source": "http://www.cs.uga.edu/staff-directory", 
+                "target": "http://www.cs.uga.edu/faculty-directory"
+            }
+        ], 
+        "value": 3
+    }, 
+    "City University of New York, Graduate Center": {
+        "edges": [
+            {
+                "source": "https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Doctoral-Programs/Computer-Science", 
+                "target": "https://www.gc.cuny.edu/Page-Elements/Academics-Research-Centers-Initiatives/Doctoral-Programs/Computer-Science/Faculty"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Western Ontario": {
+        "edges": [
+            {
+                "source": "http://www.csd.uwo.ca/", 
+                "target": "http://www.csd.uwo.ca/people/faculty/index.html"
+            }, 
+            {
+                "source": "http://www.csd.uwo.ca/people/faculty/index.html", 
+                "target": "http://www.csd.uwo.ca/people/faculty/full_time_faculty.html"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Denver": {
+        "edges": [
+            {
+                "source": "http://ritchieschool.du.edu", 
+                "target": "http://ritchieschool.du.edu/about/faculty-staff/"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Simon Fraser University": {
+        "edges": [
+            {
+                "source": "http://www.sfu.ca/computing.html", 
+                "target": "http://www.sfu.ca/computing/people/faculty.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Nebraska, Omaha": {
+        "edges": [
+            {
+                "source": "http://www.unomaha.edu/college-of-information-science-and-technology/computer-science/", 
+                "target": "http://www.unomaha.edu/college-of-information-science-and-technology/computer-science/about/index.php"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Indiana University": {
+        "edges": [
+            {
+                "source": "https://www.soic.indiana.edu/", 
+                "target": "https://www.soic.indiana.edu/faculty-research/directory/index.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of California, Berkeley": {
+        "edges": [
+            {
+                "source": "https://cs.berkeley.edu/", 
+                "target": "https://cs.berkeley.edu/resources/faculty-staff"
+            }, 
+            {
+                "source": "https://cs.berkeley.edu/resources/faculty-staff", 
+                "target": "https://www2.eecs.berkeley.edu/Faculty/Lists/CS/faculty.html"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Colorado, Colorado Springs": {
+        "edges": [
+            {
+                "source": "http://www.uccs.edu/cs", 
+                "target": "http://www.uccs.edu/cs/about/faculty.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of New Mexico": {
+        "edges": [
+            {
+                "source": "http://www.cs.unm.edu/", 
+                "target": "http://www.cs.unm.edu/directory/staff-profiles/index.html"
+            }, 
+            {
+                "source": "http://www.cs.unm.edu/directory/staff-profiles/index.html", 
+                "target": "http://www.cs.unm.edu/directory/index.html"
+            }
+        ], 
+        "value": 2
+    }, 
+    "University of Alberta": {
+        "edges": [
+            {
+                "source": "https://www.ualberta.ca/computing-science/", 
+                "target": "https://www.ualberta.ca/computing-science/links-and-resources/technical-support/your-web-presence/people-directory-profiles"
+            }, 
+            {
+                "source": "https://www.ualberta.ca/computing-science/links-and-resources/technical-support/your-web-presence/people-directory-profiles", 
+                "target": "https://www.ualberta.ca/computing-science/faculty-and-staff/faculty"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Dartmouth College": {
+        "edges": [
+            {
+                "source": "http://web.cs.dartmouth.edu/", 
+                "target": "http://web.cs.dartmouth.edu/people"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Tennessee, Knoxville": {
+        "edges": [
+            {
+                "source": "http://www.eecs.utk.edu/", 
+                "target": "http://www.eecs.utk.edu/people/faculty/full-time/"
+            }, 
+            {
+                "source": "http://www.eecs.utk.edu/people/faculty/full-time/", 
+                "target": "http://www.eecs.utk.edu/people/faculty/"
+            }
+        ], 
+        "value": 2
+    }, 
+    "Catholic University of America": {
+        "edges": [
+            {
+                "source": "http://eecs.cua.edu/", 
+                "target": "http://eecs.cua.edu/faculty-staff/index.cfm"
+            }
+        ], 
+        "value": 1
+    }, 
+    "Stevens Institute of Technology": {
+        "edges": [
+            {
+                "source": "https://www.stevens.edu/schaefer-school-engineering-science/departments/computer-science", 
+                "target": "https://www.stevens.edu/schaefer-school-engineering-science/departments/computer-science/faculty"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Michigan": {
+        "edges": [
+            {
+                "source": "http://www.eecs.umich.edu/cse/", 
+                "target": "http://www.eecs.umich.edu/eecs/faculty/csefaculty.html"
+            }
+        ], 
+        "value": 1
+    }, 
+    "University of Albany, SUNY": {
+        "edges": [
+            {
+                "source": "http://www.albany.edu/computer-science/indexmain.php", 
+                "target": "http://www.albany.edu/computer-science/cs-faculty-and-staff.php"
+            }
+        ], 
+        "value": 1
+    }, 
+    "North Dakota State University": {
+        "edges": [
+            {
+                "source": "https://www.ndsu.edu/cs", 
+                "target": "https://www.ndsu.edu/cs/faculty_and_staff/"
+            }
+        ], 
+        "value": 1
+    }
+}
