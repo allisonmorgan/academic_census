@@ -1,26 +1,68 @@
 # -*- coding: utf-8 -*-
 import re
+import cPickle
+import pandas as pd
+import warnings
 
-def skip_faculty(title):
-    title = title.lower()
-    cannot_contain = ["adjoint", "techincal", "business advisor", "academic advisor", "tutoring", "manager", "admin", "specialist", "support", "staff", "programmer", "guest", "developer", "finan","scientist", "researcher", "intern ", "lecturer", "analyst", "instruct", "post", "technici", "technical", "part-time", "part time", " of practice", " of the practice", "research professor", "office assistant", "research associate", "marketing", "research assistant", "teaching", "affiliate", "acting faculty", "specilaist", "outreach", "clinical", "partnerships", "recruitment", "communications", "media relations", "collaborator", "visiting", "practice", "adj ", "senior fellow", "research fellow", "avionics", "commercialization", "comm ", "project director", "adjt", "research engineer", "it director", "lab director", "managing director", "student success", "status-only", "librarian", "visitng", "secondary faculty", "lecturer", "emeritus", "hourly", "assistant to the ", "cross-appointed", "joint appointment", "adjunct faculty", "pullman bremerton everett adjunct", "adjunct and courtesy", "joint / courtesy faculty", "courtesy appointment", "cross appointed", "secondary appointment", "assistant adjunct professor", "secretary", "retired", "emerita", "in residence", "program assistant", "industry", "emeriti", "doctoral fellow"]
-    wrong_department = False
-    if title.count("professor") > 0 and (title.count(" of ") > 0 or title.count(" for ") > 0 or title.count(" in ") > 0):
-        if title.count("comput") > 0 or title.count("electric") > 0 or title.count("embedded") > 0 or title.count("engineer") > 0:
-            wrong_department = True
-    elif title.count("chair") > 0 and (title.count(" of ") > 0 or title.count(" for ") > 0 or title.count(" in ") > 0):
-        if title.count("computer") > 0 or title.count("electric") > 0 or title.count("engineering") > 0:
-            wrong_department = True
-    elif title.count("director") > 0 and (title.count(" of ") > 0 or title.count(" for ") > 0 or title.count(" in ") > 0):
-        if title.count("professor") > 0 and title.count("computer") > 0 or title.count("electric") > 0 or title.count("embedded") > 0 or title.count("engineer") > 0:
-            wrong_department = True
-    else:
-        wrong_department = True
+warnings.filterwarnings('ignore')
 
-    if title.count("coordinator") > 0 and title.count("professor") == 0:
-        return False
-    if (not title.startswith("adjunct ")) and not title.startswith("research") and (not title.endswith("courtesy")) and (not title.endswith(" designer")) and (not title.startswith("engineer ")) and (not title.endswith("asst")) and (not title.startswith("visiting ")) and (not title.startswith("joint ")) and (not title.startswith("exec")) and (not title.startswith("adjunct")) and (not title.startswith("courtesy ")) and (not title.endswith("engineer")) and (not title.endswith("tech")) and all([title.count(word) == 0 for word in cannot_contain]) and not title.endswith("assistant") and not title == "project collaborator" and not title == "advisor" and not title == "research facilitator" and not title == "graduate advisor" and not title == "undergraduate advisor" and not title == "deputy director" and not title.endswith("affiliate") and not title.endswith(" secretary") and not title == ("secretary") and not title.endswith(" student") and not title.endswith(" intern") and not (title.count("scholar") > 0 and not title.count("professor") > 0):
-        if wrong_department:
-            return True
+# 1) Whitelist of keywords for navigation, and function for keeping priority queue.
+#
+# Scores a page's outgoing links based on learned set of keywords associated with directories. 
+# The function accepts a list of (URL, [keywords]), where keywords are the text within and 
+# surrounding a hyperlink.
+def evaluate_links(keyword_dict):
+    # Whitelist of keywords for navigating to faculty directories.
+    positive_keywords = ['professor', 'faculty', 'tenure', 'people', 'full-time', 'directory', 'personnel', 'professeur', 'staff']
+    default_score = 100
 
-    return False
+    # Create a new dictionary to hold URL scores
+    evaluated_links = [] 
+    for pair in keyword_dict:
+        key, phrases = pair[0], pair[1]
+        score = default_score
+
+        for phrase in phrases:
+            # Add points for positive keywords. Searches the text 
+            # around and within the link
+            for positive_keyword in positive_keywords:
+                score += phrase.count(positive_keyword)
+
+        for positive_keyword in positive_keywords:
+            score += key.count(positive_keyword)
+
+        # Add the URL with its score
+        evaluated_links.append((key, phrases, score))
+
+    # Sort queue by the URL's score. Returns a list with most
+    # revelant URLS towards the end.
+    x = sorted(evaluated_links, key=lambda triple: triple[2])
+    return [triple[0] for triple in x]
+
+
+# 2) Complete set of features of our random forest classifier for classifying pages as 
+# directories.
+#
+features = pd.read_pickle('features.p')
+print("Length of feature set: {0}".format(len(features)))
+clf = cPickle.load(open('classifier.p', 'rb'))
+
+
+# 3) Whitelist of first and last names
+#
+# See `name_set.p` for list of first and last names randomized. To load:
+# 
+x = cPickle.load(open('name_set.p', 'rb'))
+print("Total number of names: {0}".format(len(x))) # 7058
+
+
+# 4) Whitelist of keywords in TT and non-TT titles. 
+#
+title_keywords = ['professor', 'faculty', 'tenure', 'people', 'full-time', 'assistant', 'associate ', 'director', 'chair', 'president', 'asst.', 'prof.', 'assoc.', 'personnel', 'professeure', 'professeur', 'research', 'visiting', 'practice', 'adjunct', 'secretary', 'admin', 'lecturer', 'emerit', 'affiliat', 'industry', 'part-time', 'instructor', 'specialist', 'advisor', 'manager', 'retire', 'courtesy', 'technical', 'post-doc', 'postdoc', 'staff', 'guest', 'collab', 'coordinat', 'develop', 'support', 'chancellor', 'scholar', 'engineer', 'joint', 'in residence', 'dir.', 'dean', 'programmer', 'analyst', 'technician', 'designer', 'co-chair', 'secondary appointment', 'teaching', 'provost', 'head', 'scientist', 'lead', 'directeur', 'phd student', 'graduate', 'fellow']
+print("Total number of title keywords: {0}".format(len(title_keywords)))
+
+
+# 5) Blacklist of keywords which cannot be contained in TT titles
+# 
+non_TT_titles = ['adjoint', 'techincal', 'business advisor', 'academic advisor', 'tutoring', 'manager', 'admin', 'specialist', 'support', 'staff', 'programmer', 'guest', 'developer', 'finan','scientist', 'researcher', 'intern ', 'lecturer', 'analyst', 'instruct', 'post', 'technici', 'technical', 'part-time', 'part time', ' of practice', ' of the practice', 'research professor', 'office assistant', 'research associate', 'marketing', 'research assistant', 'teaching', 'affiliate', 'acting faculty', 'specilaist', 'outreach', 'clinical', 'partnerships', 'recruitment', 'communications', 'media relations', 'collaborator', 'visiting', 'practice', 'adj ', 'senior fellow', 'research fellow', 'avionics', 'commercialization', 'comm ', 'project director', 'adjt', 'research engineer', 'it director', 'lab director', 'managing director', 'student success', 'status-only', 'librarian', 'visitng', 'secondary faculty', 'lecturer', 'emeritus', 'hourly', 'assistant to the ', 'cross-appointed', 'joint appointment', 'adjunct faculty', 'pullman bremerton everett adjunct', 'adjunct and courtesy', 'joint / courtesy faculty', 'courtesy appointment', 'cross appointed', 'secondary appointment', 'assistant adjunct professor', 'secretary', 'retired', 'emerita', 'in residence', 'program assistant', 'industry', 'emeriti', 'doctoral fellow']
+print("Total number of non-TT title keywords: {0}".format(len(non_TT_titles)))
