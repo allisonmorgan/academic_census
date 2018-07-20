@@ -1,5 +1,7 @@
 # academic_census
-Supplementary data and code for "Automatically assembling a full census of an academic field"
+Supplementary data and code for:
+
+> Morgan, A. C., Way, S. F., & Clauset, A. (2018). Automatically assembling a full census of an academic field. arXiv preprint arXiv:1804.02760.
 
 ##### `data`
 - Confusion matrix with transition rates between faculty titles in 2011 and 2017 (`confusion.csv`, see Table 1).
