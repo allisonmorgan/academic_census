@@ -6,7 +6,7 @@ Supplementary data and code for:
 ##### `data`
 - Confusion matrix with transition rates between faculty titles in 2011 and 2017 (`confusion.csv`, see Table 1).
 - Faculty transitions between 2011 and 2017 (`faculty.csv`, see Figures 5 & 6 and Table 3). Includes the title and institution of the faculty member in 2011 (if new faculty, left blank), and title and institution in 2017 (if no longer present, left blank).
-- Department rates of retention between 2011 and 2017 (`retention.csv`).
+- Department rates of attrition between 2011 and 2017 (`attrition.csv`). Validation of these rates (`uni_correction.tsv`). 
 
 ##### `misc`
 - Outlines necessary keyword lists (`helpers.py`, see Appendices S1-S5).
